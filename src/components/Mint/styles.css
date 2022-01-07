@@ -1,0 +1,137 @@
+.presale-soon h2 {
+  font-size: 100px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "binary_chr_brkregular";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.presale-soon h2:first-child {
+  margin-bottom: 0;
+}
+
+.presale-soon h2:last-child {
+  margin-top: 0;
+}
+
+.presale-soon h2 img {
+  margin-left: 15px;
+  margin-bottom: -10px;
+}
+
+.presale-mint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.minus-btn,
+.plus-btn {
+  border: none;
+  background: transparent;
+  background-color: #72fb73;
+  font-size: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.presale-mint p {
+  color: white;
+  font-size: 90px;
+  margin: 0;
+  font-family: binary_chr_brkregular;
+}
+
+.minus-btn {
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.plus-btn {
+  margin-left: 50px;
+}
+
+.btns-group {
+  display: flex;
+  align-items: center;
+}
+
+.mint-btn {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "classic_robotregular";
+  background: #71fb73;
+  padding: 0px 30px;
+  border-radius: 71px;
+  line-height: 65px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .presale-soon h2 {
+    font-size: 80px;
+  }
+  .mint-btn {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .presale-soon h2 {
+    font-size: 70px;
+  }
+  .mint-btn {
+    font-size: 40px;
+  }
+  .presale-soon h2 img {
+    margin-bottom: -15px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .mint-btn {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .presale-soon h2 {
+    font-size: 55px;
+  }
+  .presale-soon h2 img {
+    margin-bottom: -10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .presale-soon h2 {
+    font-size: 40px;
+  }
+  .mint-btn {
+    margin-right: 0;
+  }
+  .minus-btn {
+    margin-left: 0;
+  }
+  .presale-mint {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .presale-soon h2 img {
+    margin-bottom: -8px;
+    width: 20px;
+    height: 20px;
+  }
+}

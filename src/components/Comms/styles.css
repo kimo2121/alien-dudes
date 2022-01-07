@@ -1,0 +1,93 @@
+.comms {
+  padding: 100px 0;
+  color: white;
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.comms h4 {
+  line-height: 96px;
+  font-size: 80px;
+  margin: 0;
+  font-family: "binary_chr_brkregular";
+}
+.comms h4 a {
+  color: #a400f1;
+}
+
+.comms img {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 1400px) {
+  .comms {
+    width: 1140px;
+    padding-top: 0;
+  }
+  .comms img {
+    width: 400px;
+    height: 221px;
+    margin-top: 130px;
+  }
+  .comms h4 {
+    line-height: 84px;
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .comms {
+    width: 960px;
+  }
+  .comms img {
+    width: 360px;
+    height: 200px;
+    margin-top: 120px;
+  }
+  .comms h4 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .comms {
+    width: 720px;
+  }
+  .comms img {
+    width: 300px;
+    height: 166px;
+    margin-top: 100px;
+  }
+  .comms h4 {
+    font-size: 55px;
+    line-height: 66px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .comms {
+    width: 540px;
+  }
+  .comms img {
+    width: 270px;
+    height: 150px;
+    margin-top: 100px;
+  }
+  .comms h4 {
+    line-height: 60px;
+
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .comms {
+    width: 95%;
+  }
+  .comms img {
+    width: 230px;
+    height: 127px;
+    margin-top: 100px;
+  }
+  .comms h4 {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+}

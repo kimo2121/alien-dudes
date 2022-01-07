@@ -1,0 +1,108 @@
+.navbar {
+  display: flex;
+  max-width: 1296px;
+  height: 135px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav-links img {
+  width: 60px;
+  height: 60px;
+  margin: 0 8px;
+}
+
+.nav-links img {
+}
+.connect-btn {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 60px !important;
+  text-transform: uppercase !important;
+  color: #97f884 !important;
+  font-family: "binary_chr_brkregular" !important;
+}
+.MuiButton-label img {
+  margin-top: 5px;
+  width: 35px;
+  height: 35px;
+}
+@media screen and (max-width: 1400px) {
+  .navbar {
+    max-width: 1116px;
+    height: 90px;
+  }
+  .connect-btn {
+    font-size: 50px !important;
+  }
+  .nav-links img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    max-width: 936px;
+  }
+  .nav-links img {
+    width: 40px;
+    height: 40px;
+  }
+  .MuiButton-label img {
+    width: 30px;
+    height: 30px;
+  }
+  .connect-btn {
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .navbar {
+    height: 75px;
+
+    max-width: 696px;
+  }
+  .connect-btn {
+    font-size: 30px !important;
+  }
+  .MuiButton-label img {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    max-width: 516px;
+    height: 60px;
+  }
+  .connect-btn {
+    font-size: 40px;
+  }
+  .nav-links img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar {
+    height: 52px;
+
+    width: 95%;
+  }
+  .connect-btn {
+    font-size: 35x;
+  }
+  .nav-links img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.MuiDialog-scrollPaper,
+.MuiDialog-paper,
+.MuiPaper-elevation24,
+.MuiDialogContent-root .MuiButton-label {
+  color: white !important;
+}

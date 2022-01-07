@@ -1,38 +1,102 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.welcome h1 {
   color: white;
+  font-size: 120px;
+  font-family: alienregular;
+}
+.welcome {
+  margin: 100px auto;
+}
+.welcome img {
+  width: 350px;
+  height: 508px;
+  margin-top: 115px;
+}
+@font-face {
+  font-family: "binary_chr_brkregular";
+  src: url("../src/fonts/binchrt-webfont.woff2") format("woff2"),
+    url("../src/fonts/binchrt-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alienregular";
+  src: url("../src/fonts/alien.regular-webfont.woff2") format("woff2"),
+    url("../src/fonts/alien.regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "classic_robotregular";
+  src: url("../src/fonts/classic_robot-webfont.woff2") format("woff2"),
+    url("../src/fonts/classic_robot-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "classic_robotbold";
+  src: url("../src/fonts/classic_robot_bold-webfont.woff2") format("woff2"),
+    url("../src/fonts/classic_robot_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "classic_robot_condensedbold";
+  src: url("../src/fonts/classic_robot_condensed_bold-webfont.woff2")
+      format("woff2"),
+    url("../src/fonts/classic_robot_condensed_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "classic_robot_condensedRg";
+  src: url("../src/fonts/classic_robot_condensed-webfont.woff2") format("woff2"),
+    url("../src/fonts/classic_robot_condensed-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1400px) {
+  .welcome h1 {
+    font-size: 90px;
   }
-  to {
-    transform: rotate(360deg);
+  .welcome img {
+    width: 300px;
+    height: 435px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .welcome h1 {
+    font-size: 80px;
+  }
+  .welcome img {
+    width: 250px;
+    height: 362px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .welcome img {
+    margin-top: 90px;
+    width: 200px;
+    height: 290px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .welcome h1 {
+    font-size: 65px;
+  }
+  .welcome {
+    margin: 80px auto;
+  }
+  .welcome img {
+    width: 160px;
+    height: 232px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .welcome h1 {
+    font-size: 50px;
   }
 }
