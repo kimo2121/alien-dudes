@@ -290,41 +290,43 @@ const Mint = (props: MintProps) => {
     AOS.init({});
   }, []);
   return (
-    <div data-aos="fade-up" data-aos-duration="1000">
-      <div className="presale-soon">
-        <h2>PRESALE SOON</h2>
-        <h2>
-          0.3
-          <img src={sol} alt="" />
-        </h2>
-      </div>
-      <div className="presale-mint">
-        {/* <button className="mint-btn">Mint</button> */}
-        <MintButton
-          candyMachine={candyMachine}
-          fairLaunch={fairLaunch}
-          isMinting={isMinting}
-          fairLaunchBalance={fairLaunchBalance}
-          onMint={onMint}
-        />
-        <div className="btns-group">
-          <button
-            onClick={() => {
-              setCount(Math.max(count - 1, 0));
-            }}
-            className="minus-btn"
-          >
-            <FaMinus className="fab fa-minus-circle" />
-          </button>
-          <p>{count}</p>
-          <button
-            onClick={() => {
-              setCount(count + 1);
-            }}
-            className="plus-btn"
-          >
-            <FaPlus className="fab fa-plus-circle" />
-          </button>
+    <>
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <div className="presale-soon">
+          <h2>PRESALE SOON</h2>
+          <h2>
+            0.3
+            <img src={sol} alt="" />
+          </h2>
+        </div>
+        <div className="presale-mint">
+          {/* <button className="mint-btn">Mint</button> */}
+          <MintButton
+            candyMachine={candyMachine}
+            fairLaunch={fairLaunch}
+            isMinting={isMinting}
+            fairLaunchBalance={fairLaunchBalance}
+            onMint={onMint}
+          />
+          <div className="btns-group">
+            <button
+              onClick={() => {
+                setCount(Math.max(count - 1, 0));
+              }}
+              className="minus-btn"
+            >
+              <FaMinus className="fab fa-minus-circle" />
+            </button>
+            <p>{count}</p>
+            <button
+              onClick={() => {
+                setCount(count + 1);
+              }}
+              className="plus-btn"
+            >
+              <FaPlus className="fab fa-plus-circle" />
+            </button>
+          </div>
         </div>
       </div>
       <Snackbar
@@ -339,7 +341,7 @@ const Mint = (props: MintProps) => {
           {alertState.message}
         </Alert>
       </Snackbar>
-    </div>
+    </>
   );
 };
 
